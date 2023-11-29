@@ -1,0 +1,3 @@
+export const PERSONAL_INTEREST_RATE = 4;
+export const GUARANTEED_INTEREST_RATE = 3;
+export const CONSIGNMENT_INTEREST_RATE = 2;
