@@ -17,21 +17,19 @@ API to determine which loan types a person has access to.
   <li>Responses</li>
   <ul>
     <li>200 OK: Returns json with the available loans for that person, example:</li>
-    ```json
+    <pre>
 {
-	"customer": "Ellyan Fernandes",
-	"loans": [
-		{
-			"type": "PERSONAL",
-			"interest_rate": 4
-		},
-		{
-			"type": "GUARANTEED",
-			"interest_rate": 3
-		}
-	]
-}
-    ```
+    "customer": "Ellyan Fernandes",
+    "loans": [{
+            "type": "PERSONAL",
+            "interest_rate": 4
+        },
+        {
+            "type": "GUARANTEED",
+            "interest_rate": 3
+        }
+    ]
+}</pre>	  
     <li>400 Bad Request if body parameters fails validation</li>
   </ul>
 </ul>
