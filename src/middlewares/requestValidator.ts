@@ -23,4 +23,4 @@ const validateRequest = (req: Request, res: Response, next: NextFunction) => {
     next();
 }
 
-export {validateRequest};
+export {validateRequest, schema};

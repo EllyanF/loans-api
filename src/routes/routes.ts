@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { getLoans } from "../handlers/loansHandler";
+import { loansHandler } from "../handlers/loansHandler";
 
 export const router: Router = Router();
 
-router.post('/customer-loans', getLoans);
+router.post('/customer-loans', loansHandler);
