@@ -39,7 +39,7 @@ function approveConsignedLoad(customer: customerInfo): Object | void {
 }
 
 function verifyLoan(customer: customerInfo): Object[] {
-    const approvedLoans = [] as any[];
+    const approvedLoans = [] as Object[];
 
     const verifyLoanConditions = [
         approvePersonalLoan(customer), 
